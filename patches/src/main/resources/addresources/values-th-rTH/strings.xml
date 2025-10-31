@@ -22,7 +22,7 @@ Second \"item\" text"</string>
 <resources>
   <app id="shared">
   <patch id="layout.branding.baseCustomBrandingPatch">
-  <string name="revanced_custom_branding_name_title">ชื่อแอป</string>
+  <string name="revanced_custom_branding_name_title">App name</string>
   <!-- Translations of this should be identical to revanced_custom_branding_icon_entry_5 -->
   <string name="revanced_custom_branding_name_entry_5">กำหนดเอง</string>
   <string name="revanced_custom_branding_icon_title">ไอคอนแอป</string>
