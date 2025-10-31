@@ -32,7 +32,7 @@ jobs:
       - name: Build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./gradlew clean :patches:buildAndroid
+        run: ./gradlew :patches:buildAndroid clean
 
       - name: Setup Node.js
         uses: actions/setup-node@v5
@@ -57,7 +57,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Attest
-        if: success()
+        if: steps.release.outputs.new_release_published == 'true'
         uses: actions/attest-build-provenance@v3
         with:
           subject-name: 'ReVanced Patches ${{ steps.release.outputs.new_release_git_tag }}'
