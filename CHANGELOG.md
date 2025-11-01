@@ -1,3 +1,27 @@
+# [5.44.0-dev.1](https://github.com/funeelo/revanced-patches/compare/v5.43.1...v5.44.0-dev.1) (2025-11-01)
+
+
+### Bug Fixes
+
+* **Google Photos - Spoof features:** Add support for Pixel 10 devices ([#6161](https://github.com/funeelo/revanced-patches/issues/6161)) ([754b719](https://github.com/funeelo/revanced-patches/commit/754b71959a0155413eb33cf1bdc2c8976eaca634))
+* **Instagram:** Update failing fingerprints on newer versions ([#6181](https://github.com/funeelo/revanced-patches/issues/6181)) ([c73a03c](https://github.com/funeelo/revanced-patches/commit/c73a03c9e18a12262939c974cdf16221221d1487))
+* **X / Twitter - Change link sharing domain:** Use bytecode patching to resolve patching with Manager ([#6125](https://github.com/funeelo/revanced-patches/issues/6125)) ([0af8c8a](https://github.com/funeelo/revanced-patches/commit/0af8c8a766ae4ba6926404d59da2f14d649f91f7))
+* **YouTube - Change header:** Do not mirror header graphic with RTL languages ([a0c5604](https://github.com/funeelo/revanced-patches/commit/a0c56049510ce040e1ccd49257864672c343344d))
+* **YouTube - Force original audio:** Fall back to visionOS and not Android Studio if Android VR is not available ([6d01863](https://github.com/funeelo/revanced-patches/commit/6d01863ec70617d9abc864ce6686ed9764dd151d))
+* **YouTube - Hide layout components:** Hide new kind of community post ([#6146](https://github.com/funeelo/revanced-patches/issues/6146)) ([cfd244b](https://github.com/funeelo/revanced-patches/commit/cfd244b4088daacd2788ec38357ac521e4b296d5))
+* **YouTube Music - Hide category bar:** Correctly hide the category bar in newer app targets ([#6175](https://github.com/funeelo/revanced-patches/issues/6175)) ([13cf172](https://github.com/funeelo/revanced-patches/commit/13cf1724bf2f946c7129cab0db96721c90f9fe89))
+* **YouTube Music:** Resolve patching 7.29 target ([2e4c6fd](https://github.com/funeelo/revanced-patches/commit/2e4c6fdcadeef45a80733e374421d52e5e8af910))
+
+
+### Features
+
+* Add `Custom network security` patch ([#6151](https://github.com/funeelo/revanced-patches/issues/6151)) ([e7336d2](https://github.com/funeelo/revanced-patches/commit/e7336d2ef361cc5d6fe6e8442b36d9cf1f542931))
+* **Duolingo - Enable debug menu:** Support latest app target ([#6163](https://github.com/funeelo/revanced-patches/issues/6163)) ([08baa19](https://github.com/funeelo/revanced-patches/commit/08baa19b4a62e62bd103d177c3f4454de199cf16))
+* **Duolingo:** Add `Skip energy recharge ads` patch ([#6167](https://github.com/funeelo/revanced-patches/issues/6167)) ([591e106](https://github.com/funeelo/revanced-patches/commit/591e106098c6eff431b8b7ac7d985ce7373d701e))
+* **Samsung Radio:** Add `Disable device checks` patch ([#6145](https://github.com/funeelo/revanced-patches/issues/6145)) ([de97562](https://github.com/funeelo/revanced-patches/commit/de97562c5ddc8ec707761c1e04e74c4e18f9c158))
+* **TikTok:** Add `Sanitize sharing links` patch ([#6176](https://github.com/funeelo/revanced-patches/issues/6176)) ([ef44eaa](https://github.com/funeelo/revanced-patches/commit/ef44eaa119b9d6c5faec051e22d20f883d0da4f1))
+* **YouTube - Change Header:** Use SVG for header logo ([#6178](https://github.com/funeelo/revanced-patches/issues/6178)) ([e9f45ce](https://github.com/funeelo/revanced-patches/commit/e9f45ce92695d5857473ff71c14b190bded28a73))
+
 # [5.45.0-dev.1](https://github.com/funeelo/revanced-patches/compare/v5.44.0...v5.45.0-dev.1) (2025-11-01)
 
 
